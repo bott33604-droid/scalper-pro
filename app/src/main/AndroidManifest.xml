@@ -2,10 +2,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:theme="@android:style/Theme.Material.NoActionBar"
         android:label="Scalper Pro"
-        android:usesCleartextTraffic="false">
+        android:usesCleartextTraffic="false"
+        android:allowBackup="false">
 
         <activity
             android:name=".MainActivity"
@@ -18,4 +21,5 @@
 
         </activity>
     </application>
+
 </manifest>
